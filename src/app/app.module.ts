@@ -9,14 +9,16 @@ import { HeroesComponent } from './heroes/heroes.component'
 import { HeroDetailComponent } from './hero-detail/hero-detail.component'
 import { InMemoryDataService } from './in-memory-data.service'
 import { MessagesComponent } from './messages/messages.component';
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
