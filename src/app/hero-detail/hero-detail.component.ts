@@ -9,4 +9,9 @@ import { Hero } from '../hero'
 })
 export class HeroDetailComponent {
   @Input() hero: Hero
+
+  // save(): void {
+  //   this.heroService.updateHero(this.hero)
+  //     .subscribe(() => this.goBack())
+  // }
 }
